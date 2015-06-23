@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
-    "babel": "^5.6.4"
+    "babel": "^5.6.4",
+    "eslint": "^0.23.0"
   }
 }
