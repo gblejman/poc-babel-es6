@@ -2,5 +2,8 @@
   "name": "@gblejman/poc-babel-es6",
   "description": "poc babel and es6",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "babel": "^5.6.4"
+  }
 }
