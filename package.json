@@ -6,7 +6,7 @@
   "main": "build/index.js",
   "scripts": {
     "clean": "rimraf build",
-    "lint": "eslint source",
+    "lint": "eslint source && eslint test",
     "audit": "nsp package",
     "deps": "npm run deps:missing && npm run deps:unused && npm run deps:outdated",
     "deps:missing": "dependency-check package.json",
