@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "clean": "rimraf build",
     "lint": "eslint source",
     "audit": "nsp package",
     "deps": "npm run deps:missing && npm run deps:unused && npm run deps:outdated",
