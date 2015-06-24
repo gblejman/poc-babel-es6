@@ -12,7 +12,8 @@
     "deps:missing": "dependency-check package.json",
     "deps:unused": "dependency-check package.json --unused --no-dev",
     "deps:outdated": "npm outdated --depth 0",
-    "build": "babel source --out-dir build --source-maps"
+    "build": "babel source --out-dir build --source-maps",
+    "test": "babel-node test/index.js"
   },
   "devDependencies": {
     "babel": "^5.6.4",
