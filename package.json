@@ -10,7 +10,8 @@
     "deps": "npm run deps:missing && npm run deps:unused && npm run deps:outdated",
     "deps:missing": "dependency-check package.json",
     "deps:unused": "dependency-check package.json --unused --no-dev",
-    "deps:outdated": "npm outdated --depth 0"
+    "deps:outdated": "npm outdated --depth 0",
+    "build": "babel source --out-dir build --source-maps"
   },
   "devDependencies": {
     "babel": "^5.6.4",
