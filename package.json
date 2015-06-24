@@ -3,6 +3,7 @@
   "description": "poc babel and es6",
   "version": "1.0.0",
   "private": true,
+  "main": "build/index.js",
   "scripts": {
     "clean": "rimraf build",
     "lint": "eslint source",
